@@ -1,0 +1,11 @@
+<button type="button" class="btn btn-primary"> test</button>
+<br><br>
+<!-- <span class="fa fa-star-o"></span> -->
+
+<span style="font-size: 50px;"
+class="fa" 
+[class.fa-star]="isFavorite"
+[class.fa-star-o]="!isFavorite"
+(click)="onClick()"
+></span>
+
