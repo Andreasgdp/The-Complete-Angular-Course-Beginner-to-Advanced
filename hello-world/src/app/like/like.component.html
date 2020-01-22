@@ -1,0 +1,7 @@
+<span
+  class="fa"
+  [class.fa-star]="isActive"
+  [class.fa-star-o]="!isActive"
+  (click)="onClick()"
+></span>
+<span> {{ likeCount }} </span>

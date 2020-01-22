@@ -7,9 +7,10 @@ import { AppComponent } from "./app.component";
 import { FavoriteComponent } from "./favorite/favorite.component";
 import { MovieTitleComponent } from './movie-title/movie-title.component';
 import { MovieTitlePipe } from './movie-title.pipe';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
-  declarations: [AppComponent, FavoriteComponent, MovieTitleComponent, MovieTitlePipe],
+  declarations: [AppComponent, FavoriteComponent, MovieTitleComponent, MovieTitlePipe, LikeComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]

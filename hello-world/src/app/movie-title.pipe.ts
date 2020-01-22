@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class MovieTitlePipe implements PipeTransform {
 
-  transform(value: any, ...args: any[]): any {
+  transform(value: string): any {
     
     var wordList: Array<string> = value.split(' ')
     

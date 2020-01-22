@@ -1,3 +1,5 @@
-<!-- <favorite></favorite> -->
-<br><br>
-<app-movie-title></app-movie-title>
+<app-like
+    [likesCount]="tweet.likeCount"
+    [isActive]="tweet.isLiked"
+    (change)="onFavorite($event)"
+    ></app-like>
