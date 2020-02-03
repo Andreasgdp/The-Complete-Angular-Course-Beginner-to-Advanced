@@ -1,0 +1,31 @@
+.zippy {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currentl supported by Chrome, Opera and Firefox */
+}
+
+.zippy-heading {
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.zippy-body {
+    padding: 20px;
+}
+
+.expanded {
+    background: #f0f0f0;
+}
+
+.fa {
+    float: right;
+}
