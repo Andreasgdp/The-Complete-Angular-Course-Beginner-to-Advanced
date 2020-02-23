@@ -11,6 +11,7 @@ import { LikeComponent } from './like/like.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
         MovieTitlePipe,
         LikeComponent,
         ZippyComponent,
-        NewCourseFormComponent
+        NewCourseFormComponent,
+        ChangePasswordComponent
     ],
     imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
     providers: [],
