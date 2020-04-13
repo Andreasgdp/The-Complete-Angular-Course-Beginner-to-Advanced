@@ -22,9 +22,9 @@ export class PostService {
             this.url + '/' + post.id,
             JSON.stringify({ isRead: true })
         );
-	}
-	
-	deletePost(id: number) {
-		return this.http.delete(this.url + '/' + id)
-	}
+    }
+
+    deletePost(id: number) {
+        return this.http.delete(this.url + '/' + id);
+    }
 }
